@@ -29,7 +29,7 @@ This development toolkit contains
 3. A jupyter-notebook demo showcasing data loading, metadata querying and depth visualization.
 
 
-### Bibtex
+### Citation
 ```
 @article{diode_dataset,
     title={{DIODE}: {A} {D}ense {I}ndoor and {O}utdoor {DE}pth {D}ataset},
