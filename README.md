@@ -13,7 +13,7 @@ Refer to our [homepage](https://diode-dataset.org) and [technical report](https:
 DIODE data is organized hierarchically.
 ![Layout](dataset_layout.png)
 
-### File Naming Conventions
+### File Naming Conventions and Formats
 We have released RGB images, depth maps and depth validity masks:
 
   RGB images (`*.png`): RGB images with a resolution of 1024 × 768.
