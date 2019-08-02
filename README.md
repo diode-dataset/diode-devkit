@@ -29,7 +29,7 @@ This development toolkit contains
 3. A jupyter-notebook demo showcasing data loading, metadata querying and depth visualization.
 
 
-## Bibtex
+### Bibtex
 ```
 @article{diode_dataset,
     title={{DIODE}: {A} {D}ense {I}ndoor and {O}utdoor {DE}pth {D}ataset},
@@ -43,5 +43,5 @@ This development toolkit contains
     url={http://arxiv.org/abs/1908.00463}
 }
 ```
-## Contact
+### Contact
 If you have any questions, please contact us at [diode.dataset@gmail.com](diode.dataset@gmail.com).
