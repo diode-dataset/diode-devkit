@@ -6,8 +6,10 @@ DIODE (Dense Indoor/Outdoor DEpth) is a dataset that contains diverse high-resol
 Refer to our [homepage](https://diode-dataset.org) and [technical report](https://arxiv.org/abs/1908.00463) for more details.
 
 ### Dataset Download
-- [Training set](http://diode-dataset.s3.amazonaws.com/train.tar.gz), 81 GB
-- [Validation set](http://diode-dataset.s3.amazonaws.com/val.tar.gz), 2.6 GB
+|     Partition      |                      Amazon Web Service                      | Tencent Cloud                                                |             MD5 Hash             |
+| :----------------: | :----------------------------------------------------------: | ------------------------------------------------------------ | :------------------------------: |
+|    Train (81GB)    | [train.tar.gz](http://diode-dataset.s3.amazonaws.com/train.tar.gz) | [train.tar.gz](https://diode-dataset-1254389886.cos.ap-shanghai.myqcloud.com/train.tar.gz) | 3a94632398fe1d002d89f11743f748b1 |
+| Validation (2.6GB) | [val.tar.gz](http://diode-dataset.s3.amazonaws.com/val.tar.gz) | [val.tar.gz](https://diode-dataset-1254389886.cos.ap-shanghai.myqcloud.com/val.tar.gz) | 5c895d09201b88973c8fe4552a67dd85 |
 
 ### Dataset Layout
 DIODE data is organized hierarchically.
