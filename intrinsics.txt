@@ -1,0 +1,3 @@
+The intrinsic parameters of the camera are:
+	[fx, fy, cx, cy] = [886.81, 927.06, 512, 384]
+These are the parameters of the computational camera used to generate RGBD crops from the scans as described in Section 3.2 of the paper; please note that fx and fy are slightly different.
