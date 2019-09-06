@@ -25,10 +25,11 @@ We have released RGB images, depth maps and depth validity masks:
   Depth validity masks (`*_depth_mask.npy`): validity masks where 1 denotes valid sensor return and 0 otherwise.
 
 ### Devkit
-This development toolkit contains
+This development toolkit contains:
 1. A json file that enumerates the data in DIODE. The layout of this file is explained in diode.py. It serves as the single point of reference during dataloading.
 2. A sample pytorch data loading module.
 3. A jupyter-notebook demo showcasing data loading, metadata querying and depth visualization.
+4. A text file documenting camera intrinsics. 
 
 
 ### Citation
