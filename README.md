@@ -30,6 +30,7 @@ This development toolkit contains:
 2. A sample pytorch data loading module.
 3. A jupyter-notebook demo showcasing data loading, metadata querying and depth visualization.
 4. A text file documenting camera intrinsics. 
+5. A python file for computation of metrics using numpy. 
 
 
 ### Citation
