@@ -10,14 +10,14 @@ We have released the train and validation splits of DIODE depth and DIODE normal
 
 **Download links:**
 
-1. DIODE Depth (RGB images, Depth maps and Depth validity masks):
+1. **DIODE Depth** (RGB images, Depth maps and Depth validity masks):
 
 |     Partition      |                      Amazon Web Service                      | Tencent Cloud Service                                               |             MD5 Hash             |
 | :----------------: | :----------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------: |
 |    Train (81GB)    | [train.tar.gz](http://diode-dataset.s3.amazonaws.com/train.tar.gz) | [train.tar.gz](https://diode-dataset-1254389886.cos.ap-shanghai.myqcloud.com/train.tar.gz) | 3a94632398fe1d002d89f11743f748b1 |
 | Validation (2.6GB) | [val.tar.gz](http://diode-dataset.s3.amazonaws.com/val.tar.gz) | [val.tar.gz](https://diode-dataset-1254389886.cos.ap-shanghai.myqcloud.com/val.tar.gz) | 5c895d09201b88973c8fe4552a67dd85 |
 
-2. DIODE Normal (Normal maps only):
+2. **DIODE Normal** (Normal maps only):
 
 |     Partition      |                      Amazon Web Service                      | Tencent Cloud Service                                               |             MD5 Hash             |
 | :----------------: | :----------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------: |
