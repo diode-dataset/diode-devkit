@@ -29,7 +29,7 @@ DIODE data is organized hierarchically. Detailed structure is shown as follows:
 ![Layout](dataset_layout.png)
 
 ### File Naming Conventions and Formats
-The dataset consists of RGB images, depth maps, depth validity masks and surface normals. Their formats are as follows:
+The dataset consists of RGB images, depth maps, depth validity masks and surface normal maps. Their formats are as follows:
 
   RGB images (`*.png`): RGB images with a resolution of 1024 × 768.
 
