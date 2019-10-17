@@ -6,13 +6,26 @@ DIODE (Dense Indoor/Outdoor DEpth) is a dataset that contains diverse high-resol
 Refer to our [homepage](https://diode-dataset.org) and [technical report](https://arxiv.org/abs/1908.00463) for more details.
 
 ### Dataset Download
-|     Partition      |                      Amazon Web Service                      | Tencent Cloud                                                |             MD5 Hash             |
+We have released the train and validation splits of DIODE depth and DIODE normal, including RGB images, depth maps, depth validity masks and surface normal maps. Test set is coming soon.
+
+**Download links:**
+
+1. DIODE Depth (RGB images, Depth maps and Depth validity masks):
+
+|     Partition      |                      Amazon Web Service                      | Tencent Cloud Service                                               |             MD5 Hash             |
 | :----------------: | :----------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------: |
 |    Train (81GB)    | [train.tar.gz](http://diode-dataset.s3.amazonaws.com/train.tar.gz) | [train.tar.gz](https://diode-dataset-1254389886.cos.ap-shanghai.myqcloud.com/train.tar.gz) | 3a94632398fe1d002d89f11743f748b1 |
 | Validation (2.6GB) | [val.tar.gz](http://diode-dataset.s3.amazonaws.com/val.tar.gz) | [val.tar.gz](https://diode-dataset-1254389886.cos.ap-shanghai.myqcloud.com/val.tar.gz) | 5c895d09201b88973c8fe4552a67dd85 |
 
+2. DIODE Normal (Normal maps only):
+
+|     Partition      |                      Amazon Web Service                      | Tencent Cloud Service                                               |             MD5 Hash             |
+| :----------------: | :----------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------: |
+|    Train (126GB)    | [train_normals.tar.gz](http://diode-dataset.s3.amazonaws.com/train_normals.tar.gz) | -- | 9c0617ebe1eaf1928fdf3344e1c42aef |
+| Validation (4.6GB) | [val_normals.tar.gz](http://diode-dataset.s3.amazonaws.com/val_normals.tar.gz) | -- | 323ccaf60abebdb59705dcd8b529d709 |
+
 ### Dataset Layout
-DIODE data is organized hierarchically.
+DIODE data is organized hierarchically. Detailed structure is shown as follows:
 ![Layout](dataset_layout.png)
 
 ### File Naming Conventions and Formats
@@ -23,6 +36,8 @@ We have released RGB images, depth maps and depth validity masks:
   Depth maps (`*_depth.npy`): depth ground truth with the same resolution as the images.
 
   Depth validity masks (`*_depth_mask.npy`): validity masks where 1 denotes valid sensor return and 0 otherwise.
+  
+  Surface normals maps (`*_normal.npy`): Surface normal vector ground truth with the same resolution as the images. Invalid normals are represented as (0,0,0).
 
 ### Devkit
 This development toolkit contains:
