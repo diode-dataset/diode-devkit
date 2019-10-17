@@ -33,9 +33,9 @@ The dataset consists of RGB images, depth maps, depth validity masks and surface
 
   RGB images (`*.png`): RGB images with a resolution of 1024 × 768.
 
-  Depth maps (`*_depth.npy`): depth ground truth with the same resolution as the images.
+  Depth maps (`*_depth.npy`): Depth ground truth with the same resolution as the images.
 
-  Depth validity masks (`*_depth_mask.npy`): validity masks where 1 denotes valid sensor return and 0 otherwise.
+  Depth validity masks (`*_depth_mask.npy`): Binary validity masks where 1 denotes valid sensor return and 0 otherwise.
   
   Surface normals maps (`*_normal.npy`): Surface normal vector ground truth with the same resolution as the images. Invalid normals are represented as (0,0,0).
 
