@@ -71,6 +71,18 @@ def plot_depth_map(dm, validity_mask):
     plt.imshow(dm, cmap=cmap, vmax=np.log(MAX_DEPTH))
 
 
+def plot_normal_map(normal_map):
+    normal_viz = normal_map[:, ::-1, :]
+
+    normal_viz = normal_viz + np.equal(np.sum(normal_viz, 2, 
+    keepdims=True), 0.).astype(np.float32)*np.min(normal_viz)
+
+    normal_viz = (normal_viz - np.min(normal_viz))/2.
+    plt.axis('off')
+    plt.imshow(normal_viz)
+
+    
+    
 class DIODE(Dataset):
     def __init__(self, meta_fname, data_root, splits, scene_types):
         self.data_root = data_root
