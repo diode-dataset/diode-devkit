@@ -21,8 +21,8 @@ We have released the train and validation splits of DIODE depth and DIODE normal
 
 |     Partition      |                      Amazon Web Service                      | Tencent Cloud Service                                               |             MD5 Hash             |
 | :----------------: | :----------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------: |
-|    Train (126GB)    | [train_normals.tar.gz](http://diode-dataset.s3.amazonaws.com/train_normals.tar.gz) | -- | 9c0617ebe1eaf1928fdf3344e1c42aef |
-| Validation (4.6GB) | [val_normals.tar.gz](http://diode-dataset.s3.amazonaws.com/val_normals.tar.gz) | -- | 323ccaf60abebdb59705dcd8b529d709 |
+|    Train (126GB)    | [train_normals.tar.gz](http://diode-dataset.s3.amazonaws.com/train_normals.tar.gz) | [train_normals.tar.gz](https://diode-dataset-1254389886.cos.ap-shanghai.myqcloud.com/train_normals.tar.gz) | 9c0617ebe1eaf1928fdf3344e1c42aef |
+| Validation (4.6GB) | [val_normals.tar.gz](http://diode-dataset.s3.amazonaws.com/val_normals.tar.gz) | [val_normals.tar.gz](https://diode-dataset-1254389886.cos.ap-shanghai.myqcloud.com/val_normals.tar.gz) | 323ccaf60abebdb59705dcd8b529d709 |
 
 ### Dataset Layout
 DIODE data is organized hierarchically. Detailed structure is shown as follows:
