@@ -72,7 +72,7 @@ def plot_depth_map(dm, validity_mask):
 
 
 def plot_normal_map(normal_map):
-    normal_viz = normal_map[:, ::-1, :]
+    normal_viz = normal_map[:, ::, :]
 
     normal_viz = normal_viz + np.equal(np.sum(normal_viz, 2, 
     keepdims=True), 0.).astype(np.float32)*np.min(normal_viz)
