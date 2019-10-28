@@ -43,7 +43,7 @@ The dataset consists of RGB images, depth maps, depth validity masks and surface
 This development toolkit contains:
 1. A json file that enumerates the data in DIODE. The layout of this file is explained in diode.py. It serves as the single point of reference during dataloading.
 2. A sample pytorch data loading module.
-3. A jupyter-notebook demo showcasing data loading, metadata querying and depth visualization.
+3. A jupyter-notebook demo showcasing data loading, metadata querying and depth as well as normal visualization.
 4. A text file documenting camera intrinsics. 
 5. A python file for computation of metrics using numpy. 
 
