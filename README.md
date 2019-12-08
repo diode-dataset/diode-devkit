@@ -3,7 +3,7 @@
 
 DIODE (Dense Indoor/Outdoor DEpth) is a dataset that contains diverse high-resolution color images with accurate, dense, and far-range depth measurements. DIODE is the first public dataset to include **RGBD images of indoor and outdoor scenes obtained with one sensor suite**.
 
-Refer to our [homepage](https://diode-dataset.org) and [technical report](https://arxiv.org/abs/1908.00463) for more details.
+Refer to our [homepage](https://diode-dataset.org),[dataset sample gallery](https://photos.app.goo.gl/E5tNDDQLNnFhHrjEA) and [technical report](https://arxiv.org/abs/1908.00463) for more details.
 
 ### Dataset Download
 We have released the train and validation splits of DIODE depth and DIODE normal, including RGB images, depth maps, depth validity masks and surface normal maps. Test set is coming soon.
