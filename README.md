@@ -3,7 +3,7 @@
 
 DIODE (Dense Indoor/Outdoor DEpth) is a dataset that contains diverse high-resolution color images with accurate, dense, and far-range depth measurements. DIODE is the first public dataset to include **RGBD images of indoor and outdoor scenes obtained with one sensor suite**.
 
-Refer to our [homepage](https://diode-dataset.org),[dataset sample gallery](https://photos.app.goo.gl/E5tNDDQLNnFhHrjEA) and [technical report](https://arxiv.org/abs/1908.00463) for more details.
+Refer to our [homepage](https://diode-dataset.org), [dataset sample gallery](https://photos.app.goo.gl/E5tNDDQLNnFhHrjEA) and [technical report](https://arxiv.org/abs/1908.00463) for more details.
 
 ### Dataset Download
 We have released the train and validation splits of DIODE depth and DIODE normal, including RGB images, depth maps, depth validity masks and surface normal maps. Test set is coming soon.
@@ -12,17 +12,17 @@ We have released the train and validation splits of DIODE depth and DIODE normal
 
 1. **DIODE Depth** (RGB images, Depth maps and Depth validity masks):
 
-|     Partition      |                      Amazon Web Service                      | Tencent Cloud Service                                               |             MD5 Hash             |
+|     Partition      |                      Amazon Web Service                      | Baidu Cloud Storage                                               |             MD5 Hash             |
 | :----------------: | :----------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------: |
-|    Train (81GB)    | [train.tar.gz](http://diode-dataset.s3.amazonaws.com/train.tar.gz) | [train.tar.gz](https://diode-dataset-1254389886.cos.ap-shanghai.myqcloud.com/train.tar.gz) | 3a94632398fe1d002d89f11743f748b1 |
-| Validation (2.6GB) | [val.tar.gz](http://diode-dataset.s3.amazonaws.com/val.tar.gz) | [val.tar.gz](https://diode-dataset-1254389886.cos.ap-shanghai.myqcloud.com/val.tar.gz) | 5c895d09201b88973c8fe4552a67dd85 |
+|    Train (81GB)    | [train.tar.gz](http://diode-dataset.s3.amazonaws.com/train.tar.gz) | [train.tar.gz](https://pan.baidu.com/s/1Ga9v6jVzyxfu1TUWJzo7mA) | 3a94632398fe1d002d89f11743f748b1 |
+| Validation (2.6GB) | [val.tar.gz](http://diode-dataset.s3.amazonaws.com/val.tar.gz) | [val.tar.gz](https://pan.baidu.com/s/18IoX7f9W3F7acP0hjl7NSA) | 5c895d09201b88973c8fe4552a67dd85 |
 
 2. **DIODE Normal** (Normal maps only):
 
-|     Partition      |                      Amazon Web Service                      | Tencent Cloud Service                                               |             MD5 Hash             |
+|     Partition      |                      Amazon Web Service                      | Baidu Cloud Storage                                               |             MD5 Hash             |
 | :----------------: | :----------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------: |
-|    Train (126GB)    | [train_normals.tar.gz](http://diode-dataset.s3.amazonaws.com/train_normals.tar.gz) | [train_normals.tar.gz](https://diode-dataset-1254389886.cos.ap-shanghai.myqcloud.com/train_normals.tar.gz) | 9c0617ebe1eaf1928fdf3344e1c42aef |
-| Validation (4.6GB) | [val_normals.tar.gz](http://diode-dataset.s3.amazonaws.com/val_normals.tar.gz) | [val_normals.tar.gz](https://diode-dataset-1254389886.cos.ap-shanghai.myqcloud.com/val_normals.tar.gz) | 323ccaf60abebdb59705dcd8b529d709 |
+|    Train (126GB)    | [train_normals.tar.gz](http://diode-dataset.s3.amazonaws.com/train_normals.tar.gz) | [train_normals.tar.gz](https://pan.baidu.com/s/1ngYpSuHSC1rdLXu4edAaKA) | 9c0617ebe1eaf1928fdf3344e1c42aef |
+| Validation (4.6GB) | [val_normals.tar.gz](http://diode-dataset.s3.amazonaws.com/val_normals.tar.gz) | [val_normals.tar.gz](https://pan.baidu.com/s/1TLb3hfgK7dAghEOS76ppvg) | 323ccaf60abebdb59705dcd8b529d709 |
 
 ### Dataset Layout
 DIODE data is organized hierarchically. Detailed structure is shown as follows:
