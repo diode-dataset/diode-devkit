@@ -112,7 +112,7 @@ class DIODE(Dataset):
         de_fname = osp.join(self.data_root, '{}_depth.npy'.format(im))
         de_mask_fname = osp.join(self.data_root, '{}_depth_mask.npy'.format(im))
 
-        im = np.array(Image.open(osp.join(self.data_root, im_fname)))
+        im = np.array(Image.open(im_fname))
         de = np.load(de_fname).squeeze()
         de_mask = np.load(de_mask_fname)
         return im, de, de_mask
